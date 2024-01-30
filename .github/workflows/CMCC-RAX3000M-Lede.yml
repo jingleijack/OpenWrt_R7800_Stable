@@ -22,10 +22,10 @@ jobs:
       #默认主题
       OWRT_THEME: bootstrap
       #默认主机名
-      OWRT_NAME: CMCC
+      OWRT_NAME: RAX3000M
       #默认密码，仅作展示，更改无效
       OWRT_PW: password
       #默认地址
-      OWRT_IP: 192.168.31.1
+      OWRT_IP: 10.0.0.1
       #默认源码
       OWRT_URL: https://github.com/hanwckf/immortalwrt-mt798x.git
