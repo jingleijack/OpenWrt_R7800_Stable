@@ -113,6 +113,12 @@ jobs:
 
           make defconfig
 
+      - name: New config
+        run: |
+          cd ./owrt
+
+          cat .config
+
       - name: Cleanup Toolchain
         run: |
           cd ./owrt
