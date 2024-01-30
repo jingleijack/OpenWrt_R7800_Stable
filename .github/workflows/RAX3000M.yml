@@ -1,5 +1,5 @@
 #CI项目名
-name: CMCC-RAX3000M-Lede
+name: RAX3000M
 
 on:
   #自动编译：每天早上4点
