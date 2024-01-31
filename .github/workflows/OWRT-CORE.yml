@@ -98,9 +98,9 @@ jobs:
 
           $GITHUB_WORKSPACE/Scripts/Settings.sh
 
-          cd ./package
+          #cd ./package
 
-          $GITHUB_WORKSPACE/Scripts/Plugins.sh
+          #$GITHUB_WORKSPACE/Scripts/Plugins.sh
 
       - name: Custom Settings
         run: |
@@ -161,8 +161,7 @@ jobs:
           tag_name: ${{env.OWRT_TARGET}}_${{env.OWRT_SOURCE}}_${{env.OWRT_DATE}}
           files: ./owrt/upload/*.*
           body: |
-            这是个平台固件包，内含多个设备！
-            请注意选择你需要的设备固件！
+            这是个RAX3000M固件包！
             不要问，更就完事了！
 
             源码：${{env.OWRT_SOURCE}}
