@@ -20,7 +20,7 @@ jobs:
       #编译，RAX3000M通用配置
       OWRT_TARGET: mt798x
       #默认主题
-      OWRT_THEME: bootstrap
+      OWRT_THEME: design
       #默认主机名
       OWRT_NAME: RAX3000M
       #默认密码，仅作展示，更改无效
