@@ -221,8 +221,6 @@ CONFIG_PACKAGE_luci-app-upnp=y
 CONFIG_LUCI_LANG_en=y
 CONFIG_LUCI_LANG_zh_Hans=y
 
-CONFIG_PACKAGE_luci-theme-design=y
-CONFIG_PACKAGE_luci-app-design-config=y
 
 #通用配置ipv6
 # CONFIG_PACKAGE_dnsmasq is not set
