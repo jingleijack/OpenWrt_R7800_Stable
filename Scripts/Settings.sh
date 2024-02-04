@@ -3,6 +3,11 @@
 #删除冲突插件
 rm -rf $(find ./feeds/luci/ -type d -regex ".*\(argon\|design\|openclash\).*")
 rm -rf feeds/smpackage/{base-files,dnsmasq,firewall*,fullconenat,libnftnl,nftables,ppp,opkg,ucl,upx,vsftpd-alt,miniupnpd-iptables,wireless-regdb}
+#删除旧版本插件
+rm -rf feeds/packages/net/alist
+rm -rf feeds/packages/net/tailscale
+rm -rf feeds/packages/net/xray-core
+
 #修改默认主题
 #sed -i "s/luci-theme-bootstrap/luci-theme-$OWRT_THEME/g" $(find ./feeds/luci/collections/ -type f -name "Makefile")
 #修改默认IP地址
