@@ -4,6 +4,7 @@
 rm -rf $(find ./feeds/luci/ -type d -regex ".*\(argon\|design\|openclash\).*")
 rm -rf feeds/smpackage/{base-files,dnsmasq,firewall*,fullconenat,libnftnl,nftables,ppp,opkg,ucl,upx,vsftpd-alt,miniupnpd-iptables,wireless-regdb}
 #删除旧版本插件
+rm -rf feeds/luci/applications/luci-app-alist
 rm -rf feeds/packages/net/alist
 #cp -rf feeds/smpackage/alist feeds/packages/net/
 
