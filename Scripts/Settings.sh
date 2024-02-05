@@ -4,8 +4,8 @@
 rm -rf $(find ./feeds/luci/ -type d -regex ".*\(argon\|design\|openclash\).*")
 rm -rf feeds/smpackage/{base-files,dnsmasq,firewall*,fullconenat,libnftnl,nftables,ppp,opkg,ucl,upx,vsftpd-alt,miniupnpd-iptables,wireless-regdb}
 #删除旧版本插件
-rm -rf feeds/packages/net/alist
-cp -rf feeds/smpackage/alist feeds/packages/net/
+#rm -rf feeds/packages/net/alist
+#cp -rf feeds/smpackage/alist feeds/packages/net/
 
 sed -i "s/1.32.3/1.58.2/g" feeds/packages/net/tailscale/Makefile
 sed -i "s/4cf88a1d754240ce71b29d3a65ca480091ad9c614ac99c541cef6fdaf0585dd4/452f355408e4e2179872387a863387e06346fc8a6f9887821f9b8a072c6a5b0a/g" feeds/packages/net/tailscale/Makefile
